@@ -1,0 +1,36 @@
+name: Research Task
+description: Create a standard research task
+title: "[RESEARCH] "
+labels:
+  - Research
+type: Task
+
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What needs to be achieved?
+      placeholder: Describe the expected outcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide relevant background, references, or links.
+      placeholder: Add context or references.
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How will we know that this task is complete?
+      placeholder: |
+        - Criterion 1
+        - Criterion 2
+    validations:
+      required: true
