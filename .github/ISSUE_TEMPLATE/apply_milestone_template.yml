@@ -1,7 +1,7 @@
 name: Apply Milestone Template
 description: Create a milestone and its predefined issues in this repository.
 title: "[MILESTONE TEMPLATE] "
-labels: ["automation"]
+labels: ["Documentation"]
 body:
   - type: markdown
     attributes:
